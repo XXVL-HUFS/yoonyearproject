@@ -1,0 +1,7 @@
+modules = ["bash"]
+run = "./valid-date.sh may 27 2024"
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "./main"]
